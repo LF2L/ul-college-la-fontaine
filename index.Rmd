@@ -1,0 +1,329 @@
+---
+title: " T6.4 3D printing of recycled plastic demonstrator"
+subtitle: |
+  Université de Lorraine - ERPI - France
+author: 
+- "Virginie XXX (Collège Jean de la Fontaine) "
+- "Fabio Cruz" 
+institute: "ERPI"
+date: "November, 2021 - INEDIT"
+#output: powerpoint_presentation
+output:
+  xaringan::moon_reader:
+    css: ["assets/xaringan-themer.css"]
+    seal: false
+    nature:
+#      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
+---
+
+
+
+
+```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
+# Libraries
+source("xaringan-themer.R")
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE,
+  include = TRUE,
+  fig.align='center'
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+#library(xaringanBuilder)
+#build_pdf("index.Rmd")
+
+# xaringanExtra
+xaringanExtra::use_panelset()
+
+#xaringanExtra::use_share_again()
+```
+
+
+
+class: title-slide, left, bottom
+
+
+`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
+
+## `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
+
+
+```{r, out.width = '600px', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Inedit/Logo-UL-EU.png'))
+```
+
+
+```{r xaringan-logo, echo=FALSE, include=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg",
+  width = "100%",
+  height = "100%",
+  position = css_position(top = "0em", right = "0em"),
+)
+```
+
+
+
+
+```{r xaringan-scribble, echo=FALSE}
+#xaringanExtra::use_scribble()
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+---
+
+
+class: middle
+
+# Sommaire  `r format(Sys.time(), '%d %B, %Y')`
+
+1. Presentation UL / ENSGSI 
+1. Proposition de Projet
+1. Objectifs
+
+
+---
+
+## Persones
+
+.pull-left[
+
+### Virginie
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```
+
+
+]
+
+.pull-right[
+
+### Fabio Cruz
+
+Ingénieur de recherche au Laboratoire ERPI. 
+Je travaille spécifiquement sur le Lorraine Fab Living Lab sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
+
+Je suis ingénieur mécanique de l’Universidad Nacional de Colombia, Master M2 sur Management de l’Innovation à l’école ENSGSI, et PhD en Génie Industriel de l’Université de Lorraine..
+
+### Ferney Osorio
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```
+]
+
+---
+
+# Contexte: ENSGSI - ERPI --> LF2L
+
+
+.pull-left[
+
+```{r, out.width = '150px', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/ENSGSI-small.jpg'))
+```
+
+**Ecole Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI)**
+
+- Ecole d'ingénieurs parcours en 3 ou 5 année d’études basé sur un Referentiel Emploi Competence spécifique pour des ingénieurs 
+
+- Profil: Chefs de projets en pilotage de projets innovants 
+   
+
+https://www.ensgsi.univ-lorraine.fr/
+
+]
+
+.pull-right[
+
+```{r, out.width = '280px', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.png'))
+```
+
+**Équipe de Recherche sur les Processus Innovatifs (ERPI)**
+
+- ERPI a pour vocation de mener des recherches dans le domaine de la conduite et du pilotage des processus innovatifs. 
+
+- L’ERPI est un laboratoire de Génie Industriel spécialisé dans l’étude des processus d’innovation. 
+
+https://erpi.univ-lorraine.fr/fr/
+]
+
+
+> **Un axe de travail de l'Ecole ENSGSI et du laboratoire ERPI depuis 2005**: 
+- Comment évaluaer .bg-green[des processus d'Innovation] (* *pas forcement l'Innovation en soi-même*)
+  - Innovation en phase amount:  Analyse de besoins,  Generation des Idées, Opportunités et validationdes concepts 
+  - Donc, les espace d'Innovation et créativité (Fablab, Tieurs Lieu) --> .bg-green.large[**Lorraine Fab Living Lab**]
+
+---
+
+## Lorraine Fab Living Lab
+
+Première espace de creativité et materialization dans l'Université 
+
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-00.png'))
+```
+
+- **Depuis 2005 au Decembre 2013  50 $m^2$ au ENSGSI**
+
+---
+
+## Lorraine Fab Living Lab
+
+
+.pull-left-2[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/LSCLL-01.jpg'))
+```
+]
+
+
+.pull-right-1[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-01.png'))
+```
+
+.center[**https://lf2l.fr/**]
+
+]
+
+---
+
+## Lorraine Fab Living Lab
+
+.pull-left-1[
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
+```
+
+
+Projet de recherche en cours sur un demostrateur de  recyclage de plastique pour l'impression 3D en circuit court  en lien avec une approche appellé INEDIT.
+
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/INEDIT-logo-00.jpg'))
+```
+
+
+http://erpi.univ-lorraine.fr/fr/projects/INEDIT/
+
+https://lf2l.fr/projects/green-fablab/
+
+]
+
+
+.pull-right-2[
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-1.jpg'))
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
+```
+]
+
+```{r, fig.cap="Demostrator of the Green Fablab at the Octroi site", out.width = '80%', fig.align='center'}
+
+
+```
+
+
+
+---
+
+background-image: url("`r paste0(URL, 'AFTER/Banner.jpg')`")
+background-position: 100% 50%
+background-size: 600px
+
+
+
+## Licence Professionnelle :
+
+.pull-left[
+
+ENSGSI is co-porteur [Animateur Facilitateur de Tiers-lieux Eco-Responsables (AFTER)](https://www.ensgsi.univ-lorraine.fr/formations/licence-professionnelle-en-alternance/)
+
+- Assistant manager de tiers-lieux.
+- Animateur multimédia de médiathèque, de cantine, - de repair’café et autres open lab.
+- Animateur de communautés.
+- Facilitateur.
+- FabManager.
+- Manager de projets collaboratifs.
+- Conseiller, médiateur en numérique.
+
+]
+
+.pull-right[
+
+https://cfa.univ-lorraine.fr/nos-formations/licences-pro/licence-pro-animateur-facilitateur-de-tiers-lieux-eco-responsables.html
+
+
+]
+
+
+---
+
+
+---
+
+class: middle 
+
+# Description du Projet
+
+---
+
+class: middle
+
+# But général
+
+
+
+>**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des étudiant du collegue presenter  et  un atelier Présenter le  Lorraine Fab Living (LF)**
+
+
+Possibles élments de focalisation?
+
+- Présenter les metier d'ingénieur
+- Presenter aux étudiants des espaces dites *Tier lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
+- 
+
+---
+
+
+
+---
+
+
+---
+
+
+
+
+
+
+

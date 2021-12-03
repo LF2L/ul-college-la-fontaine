@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>T6.4 3D printing of recycled plastic demonstrator</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Virginie XXX (Collège Jean de la Fontaine)" />
+    <meta name="author" content="Fabio Cruz" />
+    <script src="index_files/header-attrs/header-attrs.js"></script>
+    <link href="index_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="index_files/panelset/panelset.js"></script>
+    <script src="index_files/clipboard/clipboard.min.js"></script>
+    <link href="index_files/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="index_files/shareon/shareon.min.js"></script>
+    <link href="index_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="index_files/xaringanExtra-shareagain/shareagain.js"></script>
+    <link rel="stylesheet" href="assets/xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+
+
+
+class: title-slide, left, bottom
+
+
+<svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg> November, 2021 - INEDIT
+
+## <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"/></svg>  T6.4 3D printing of recycled plastic demonstrator
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"/></svg> Université de Lorraine - ERPI - France
+
+
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/Logo-UL-EU.png" width="600px" style="display: block; margin: auto 0 auto auto;" /&gt;
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+class: middle
+
+# Sommaire  03 December, 2021
+
+1. Presentation UL / ENSGSI 
+1. Proposition de Projet
+1. Objectifs
+
+
+---
+
+## Persones
+
+.pull-left[
+
+### Virginie
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/LF2L/Concept/Concept-00.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+.pull-right[
+
+### Fabio Cruz
+
+Ingénieur de recherche au Laboratoire ERPI. 
+Je travaille spécifiquement sur le Lorraine Fab Living Lab sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
+
+Je suis ingénieur mécanique de l’Universidad Nacional de Colombia, Master M2 sur Management de l’Innovation à l’école ENSGSI, et PhD en Génie Industriel de l’Université de Lorraine..
+
+### Ferney Osorio
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/LF2L/Concept/Concept-00.png" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Contexte: ENSGSI - ERPI --&gt; LF2L
+
+
+.pull-left[
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ENSGSI/ENSGSI-small.jpg" width="150px" style="display: block; margin: auto;" /&gt;
+
+**Ecole Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI)**
+
+- Ecole d'ingénieurs parcours en 3 ou 5 année d’études basé sur un Referentiel Emploi Competence spécifique pour des ingénieurs 
+
+- Profil: Chefs de projets en pilotage de projets innovants 
+   
+
+https://www.ensgsi.univ-lorraine.fr/
+
+]
+
+.pull-right[
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ERPI/ERPI.png" width="280px" style="display: block; margin: auto;" /&gt;
+
+**Équipe de Recherche sur les Processus Innovatifs (ERPI)**
+
+- ERPI a pour vocation de mener des recherches dans le domaine de la conduite et du pilotage des processus innovatifs. 
+
+- L’ERPI est un laboratoire de Génie Industriel spécialisé dans l’étude des processus d’innovation. 
+
+https://erpi.univ-lorraine.fr/fr/
+]
+
+
+&gt; **Un axe de travail de l'Ecole ENSGSI et du laboratoire ERPI depuis 2005**: 
+- Comment évaluaer .bg-green[des processus d'Innovation] (* *pas forcement l'Innovation en soi-même*)
+  - Innovation en phase amount:  Analyse de besoins,  Generation des Idées, Opportunités et validationdes concepts 
+  - Donc, les espace d'Innovation et créativité (Fablab, Tieurs Lieu) --&gt; .bg-green.large[**Lorraine Fab Living Lab**]
+
+---
+
+## Lorraine Fab Living Lab
+
+Première espace de creativité et materialization dans l'Université 
+
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/LF2L/History/history-00.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+- **Depuis 2005 au Decembre 2013  50 `\(m^2\)` au ENSGSI**
+
+---
+
+## Lorraine Fab Living Lab
+
+
+.pull-left-2[
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/LF2L/LSCLL-01.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+
+.pull-right-1[
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/LF2L/Concept/Concept-01.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.center[**https://lf2l.fr/**]
+
+]
+
+---
+
+## Lorraine Fab Living Lab
+
+.pull-left-1[
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Green-Fablab/Logo-GF.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+Projet de recherche en cours sur un demostrateur de  recyclage de plastique pour l'impression 3D en circuit court  en lien avec une approche appellé INEDIT.
+
+
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+http://erpi.univ-lorraine.fr/fr/projects/INEDIT/
+
+https://lf2l.fr/projects/green-fablab/
+
+]
+
+
+.pull-right-2[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Green-Fablab/Green-fablab-1.jpg" alt=" " width="100%" /&gt;&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-17-octroi.jpg" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+]
+
+
+
+
+
+---
+
+background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/AFTER/Banner.jpg")
+background-position: 100% 50%
+background-size: 600px
+
+
+
+## Licence Professionnelle :
+
+.pull-left[
+
+ENSGSI is co-porteur [Animateur Facilitateur de Tiers-lieux Eco-Responsables (AFTER)](https://www.ensgsi.univ-lorraine.fr/formations/licence-professionnelle-en-alternance/)
+
+- Assistant manager de tiers-lieux.
+- Animateur multimédia de médiathèque, de cantine, - de repair’café et autres open lab.
+- Animateur de communautés.
+- Facilitateur.
+- FabManager.
+- Manager de projets collaboratifs.
+- Conseiller, médiateur en numérique.
+
+]
+
+.pull-right[
+
+https://cfa.univ-lorraine.fr/nos-formations/licences-pro/licence-pro-animateur-facilitateur-de-tiers-lieux-eco-responsables.html
+
+
+]
+
+
+---
+
+
+---
+
+class: middle 
+
+# Description du Projet
+
+---
+
+class: middle
+
+# But général
+
+
+
+&gt;**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des étudiant du collegue presenter  et  un atelier Présenter le  Lorraine Fab Living (LF)**
+
+
+Possibles élments de focalisation?
+
+- Présenter les metier d'ingénieur
+- Presenter aux étudiants des espaces dites *Tier lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
+- 
+
+---
+
+
+
+---
+
+
+---
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true,
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
