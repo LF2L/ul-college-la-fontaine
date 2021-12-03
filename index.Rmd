@@ -1,13 +1,12 @@
 ---
-title: " T6.4 3D printing of recycled plastic demonstrator"
+title: " Projet Pédagogique Collège Jean de la Fontaine et Lorraine Fab Living Lab 2022"
 subtitle: |
   Université de Lorraine - ERPI - France
 author: 
 - "Virginie XXX (Collège Jean de la Fontaine) "
 - "Fabio Cruz" 
 institute: "ERPI"
-date: "November, 2021 - INEDIT"
-#output: powerpoint_presentation
+date: 'Decembre 2021, Nancy - France'
 output:
   xaringan::moon_reader:
     css: ["assets/xaringan-themer.css"]
@@ -75,7 +74,7 @@ knitr::include_graphics(paste0(URL, 'Inedit/Logo-UL-EU.png'))
 
 ```{r xaringan-logo, echo=FALSE, include=FALSE}
 xaringanExtra::use_logo(
-  image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg",
+  image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Fontaine/fontaine.png",
   width = "100%",
   height = "100%",
   position = css_position(top = "0em", right = "0em"),
@@ -107,34 +106,53 @@ class: middle
 
 ---
 
-## Persones
+## Equipe
 
 .pull-left[
 
-### Virginie
 
-```{r, out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Fontaine/Woman.jpg'))
 ```
 
-
+**Virginie Pierucci**
+professeur de technologie à La-Fontaine,
 ]
 
 .pull-right[
 
-### Fabio Cruz
 
-Ingénieur de recherche au Laboratoire ERPI. 
-Je travaille spécifiquement sur le Lorraine Fab Living Lab sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
-
-Je suis ingénieur mécanique de l’Universidad Nacional de Colombia, Master M2 sur Management de l’Innovation à l’école ENSGSI, et PhD en Génie Industriel de l’Université de Lorraine..
-
-### Ferney Osorio
-
-```{r, out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics(paste0(URL, 'Fontaine/Fabio.png'))
 ```
+
+**Fabio Cruz**. Ingénieur de recherche au Laboratoire ERPI. 
+Il travail sur le Lorraine Fab Living Lab sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
+
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics(paste0(URL, 'Fontaine/Ferney.png'))
+```
+
+**Ferney Osorio**. Ingénieur de recherche au Laboratoire ERPI. 
+Il mène ses recherches doctorales sur la conception et la gestion de laboratoires d’innovation type fablab, Living lab, etc.
+
+ 
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Fontaine/Alexandre.png'))
+```
+
+
+**Alexandre ASTACHENKO** Etudiant LP AFTER en alternance au LF2L dans le cadre de formation.
+
+<br>
+<br>
+<br>
+<br>
+
+>Il aura les autres étudiants (5) du LP AFTER...
 ]
+
 
 ---
 
@@ -302,24 +320,61 @@ class: middle
 # But général
 
 
+>**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des élèves du Collègue Jean de la Fontaine au Lorraine Fab Living**
 
->**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des étudiant du collegue presenter  et  un atelier Présenter le  Lorraine Fab Living (LF)**
 
+Possibles éléments de focalisation?
 
-Possibles élments de focalisation?
-
-- Présenter les metier d'ingénieur
-- Presenter aux étudiants des espaces dites *Tier lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
-- 
-
+- Présenter les metier d'ingénieurs?
+- Presenter aux étudiants les espaces dites *Tiers-lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
+- Recyclage / Eco-conception 
+ 
 ---
 
 
+# Timming
+
+- Meeting de Préparation: **Vendredi 17/2021**.
+
+>**But:**
+- Définir la thématique
+- Séance de présentation du project:  Janvier 05 et 06
+- Les étudiant auront tout le mois de Javier pour préparer la séance pédagogique et préparation des ressources matérielles.
+
+.pull-left[
+`r emo::ji("calendar")` *Dates Potentiels des Ateliers* 
+ - **Fevrier:**  Jeu 02 - Ven 03, 2022 <br>
+ - **March:**  Jeu 03, Ven 04, Jeu 31 - 2022 <br> 
+ - **Avril:**  Ven 01 - Me 27, 2022 <br> 
+ 
+`r emo::ji("clock8")`  09:00 - 12:00 ou (14:00 - 17:00?)<br> 
+`r emo::ji("round_pushpin")`  LF2L <br>
+]
+
+.pull-right[
+
+| Time          | Activity                |
+|:--------------|:------------------------|
+| 09:00 - 09:20 | Introduction Par Fabio / Virginir : <br> - Defining expectations   |
+| ... - ... | ...     |
+| 10:15 - 10:30 | *Break* `r emo::ji("apple")`        |
+| ... - ... | ...     |
+| ... - 12h | Fin     |
+
+Idealment:
+
+1. Une première séance d'ateli ]
+
 
 ---
 
+class: middle, center
 
----
+### Merci `r emo::ji("happy")`
+
+
+Fabio
+
 
 
 

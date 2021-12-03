@@ -23,8 +23,8 @@ style_duo_accent(
    
    # Title slide
    title_slide_background_color = '#FFFFFF',
-   title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
-   title_slide_background_size = '80%',
+   title_slide_background_image = "http://www4.ac-nancy-metz.fr/clg-la-fontaine-laxou/IMG/jpg/img_0077.jpg",
+   title_slide_background_size = '50%',
    title_slide_background_position = '50% 15%',
    
    # Slide content
