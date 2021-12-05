@@ -1,9 +1,9 @@
 ---
-title: " Projet Pédagogique Collège Jean de la Fontaine et Lorraine Fab Living Lab 2022"
+title: "Projet Pédagogique Collège Jean de la Fontaine et Lorraine Fab Living Lab 2022"
 subtitle: |
   Université de Lorraine - ERPI - France
 author: 
-- "Virginie XXX (Collège Jean de la Fontaine) "
+- "Virginie Pierucci (Collège Jean de la Fontaine) "
 - "Fabio Cruz" 
 institute: "ERPI"
 date: 'Decembre 2021, Nancy - France'
@@ -99,14 +99,14 @@ class: middle
 
 # Sommaire  `r format(Sys.time(), '%d %B, %Y')`
 
-1. Presentation UL / ENSGSI 
+1. Presentation UL / ERPI/ ENSGSI 
 1. Proposition de Projet
 1. Objectifs
 
 
 ---
 
-## Equipe
+## Équipe
 
 .pull-left[
 
@@ -116,7 +116,7 @@ knitr::include_graphics(paste0(URL, 'Fontaine/Woman.jpg'))
 ```
 
 **Virginie Pierucci**
-professeur de technologie à La-Fontaine,
+Professeur de technologie.
 ]
 
 .pull-right[
@@ -127,7 +127,7 @@ knitr::include_graphics(paste0(URL, 'Fontaine/Fabio.png'))
 ```
 
 **Fabio Cruz**. Ingénieur de recherche au Laboratoire ERPI. 
-Il travail sur le Lorraine Fab Living Lab sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
+Il travail sur le Lorraine Fab Living Lab (LF2L) sur des sujets liés au recyclage des plastiques pour l’impression 3D et le développement de recyclage distribué. 
 
 ```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
 knitr::include_graphics(paste0(URL, 'Fontaine/Ferney.png'))
@@ -143,7 +143,7 @@ knitr::include_graphics(paste0(URL, 'Fontaine/Alexandre.png'))
 ```
 
 
-**Alexandre ASTACHENKO** Etudiant LP AFTER en alternance au LF2L dans le cadre de formation.
+**Alexandre ASTACHENKO** Étudiant LP AFTER en alternance au LF2L dans le cadre de la licence.
 
 <br>
 <br>
@@ -167,9 +167,9 @@ knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/ENSGSI-small.jpg'))
 
 **Ecole Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI)**
 
-- Ecole d'ingénieurs parcours en 3 ou 5 année d’études basé sur un Referentiel Emploi Competence spécifique pour des ingénieurs 
+- École d'ingénieurs parcours en 3 ou 5 année d’études basé sur un referentiel emploi Competence spécifique pour des ingénieurs. 
 
-- Profil: Chefs de projets en pilotage de projets innovants 
+- Profil: Chefs de projets en pilotage de projets innovants. 
    
 
 https://www.ensgsi.univ-lorraine.fr/
@@ -192,23 +192,23 @@ https://erpi.univ-lorraine.fr/fr/
 ]
 
 
-> **Un axe de travail de l'Ecole ENSGSI et du laboratoire ERPI depuis 2005**: 
-- Comment évaluaer .bg-green[des processus d'Innovation] (* *pas forcement l'Innovation en soi-même*)
+> **Un axe de travail de l'École ENSGSI et du laboratoire ERPI depuis 2005**: 
+- Comment évaluaer .bg-green[des processus d'Innovation] (*pas forcement l'Innovation en soi-même*)
   - Innovation en phase amount:  Analyse de besoins,  Generation des Idées, Opportunités et validationdes concepts 
-  - Donc, les espace d'Innovation et créativité (Fablab, Tieurs Lieu) --> .bg-green.large[**Lorraine Fab Living Lab**]
+  - Donc, les espace d'Innovation et créativité (Fablab, Tieurs Lieu) --> .bg-green.large[**Lorraine Fab Living Lab (LF2L)**]
 
 ---
 
-## Lorraine Fab Living Lab
+## Lorraine Fab Living Lab - LF2L
 
-Première espace de creativité et materialization dans l'Université 
+Première espace de créativité et materialization dans l'Université 
 
 
 ```{r, out.width = '90%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/History/history-00.png'))
 ```
 
-- **Depuis 2005 au Decembre 2013  50 $m^2$ au ENSGSI**
+- **Depuis 2005 au Decembre 2013 - 50 $m^2$ au ENSGSI**
 
 ---
 
@@ -307,11 +307,11 @@ https://cfa.univ-lorraine.fr/nos-formations/licences-pro/licence-pro-animateur-f
 ---
 
 
----
+
 
 class: middle 
 
-# Description du Projet
+# Description du Projet ...
 
 ---
 
@@ -319,16 +319,15 @@ class: middle
 
 # But général
 
-
 >**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des élèves du Collègue Jean de la Fontaine au Lorraine Fab Living**
 
 
 Possibles éléments de focalisation?
 
-- Présenter les metier d'ingénieurs?
 - Presenter aux étudiants les espaces dites *Tiers-lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
 - Recyclage / Eco-conception 
- 
+<!-- - Présenter science de l'les metier d'ingénieurs  -->
+
 ---
 
 
@@ -339,7 +338,7 @@ Possibles éléments de focalisation?
 >**But:**
 - Définir la thématique
 - Séance de présentation du project:  Janvier 05 et 06
-- Les étudiant auront tout le mois de Javier pour préparer la séance pédagogique et préparation des ressources matérielles.
+- Les étudiant auront tout le mois de Javier pour préparer la séance pédagogique et préparation des ressources matériels.
 
 .pull-left[
 `r emo::ji("calendar")` *Dates Potentiels des Ateliers* 
@@ -355,15 +354,16 @@ Possibles éléments de focalisation?
 
 | Time          | Activity                |
 |:--------------|:------------------------|
-| 09:00 - 09:20 | Introduction Par Fabio / Virginir : <br> - Defining expectations   |
+| 09:00 - 09:20 | Introduction Par Fabio / Vriginie : <br> - Defining expectations   |
 | ... - ... | ...     |
 | 10:15 - 10:30 | *Break* `r emo::ji("apple")`        |
 | ... - ... | ...     |
 | ... - 12h | Fin     |
 
-Idealment:
+Idéalment:
 
-1. Une première séance d'ateli ]
+1. Une première séance d'atelier 
+]
 
 
 ---
