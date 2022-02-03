@@ -7,6 +7,7 @@ author:
 - "Fabio Cruz" 
 institute: "ERPI"
 date: 'Decembre 2021, Nancy - France'
+#output: powerpoint_presentation
 output:
   xaringan::moon_reader:
     css: ["assets/xaringan-themer.css"]
@@ -21,8 +22,6 @@ output:
         scroll: false # disable slide transitions by scrolling
 always_allow_html: true
 ---
-
-
 
 
 ```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
@@ -67,7 +66,7 @@ class: title-slide, left, bottom
 `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
 
 
-```{r, out.width = '600px', fig.align='right'}
+```{r, out.width = '600px', fig.align='right', include=TRUE}
 knitr::include_graphics(paste0(URL, 'Inedit/Logo-UL-EU.png'))
 ```
 
@@ -307,8 +306,6 @@ https://cfa.univ-lorraine.fr/nos-formations/licences-pro/licence-pro-animateur-f
 ---
 
 
-
-
 class: middle 
 
 # Description du Projet ...
@@ -342,7 +339,7 @@ Possibles éléments de focalisation?
 
 .pull-left[
 `r emo::ji("calendar")` *Dates Potentiels des Ateliers* 
- - **Fevrier:**  Jeu 02 - Ven 03, 2022 <br>
+ - **Fevrier:**  ~~Jeu 02 - Ven 03, 2022~~ <br>
  - **March:**  Jeu 03, Ven 04, Jeu 31 - 2022 <br> 
  - **Avril:**  Ven 01 - Me 27, 2022 <br> 
  
@@ -370,10 +367,9 @@ Idéalment:
 
 class: middle, center
 
-### Merci `r emo::ji("happy")`
+### Merci 
 
 
-Fabio
 
 
 
