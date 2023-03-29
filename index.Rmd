@@ -163,10 +163,9 @@ knitr::include_graphics("Figures/equipe.png")
 # Déroulé
 
 
-
 .pull-left-1[
 
-### But général
+### But
 - **Tiers-lieu** et ce que l'on peut y faire. 
 - **Expérimenter** sa propre créativité .
 - **Éco-responsabilité**
