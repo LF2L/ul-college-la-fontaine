@@ -1,0 +1,64 @@
+---
+
+## Lorraine Fab Living Lab
+
+
+.pull-left-2[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/LSCLL-01.jpg'))
+```
+]
+
+
+.pull-right-1[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-01.png'))
+```
+
+.center[**https://lf2l.fr/**]
+
+]
+
+
+---
+
+## Lorraine Fab Living Lab
+
+.pull-left-1[
+
+Projet de recherche en cours sur un demostrateur de  recyclage de plastique pour l'impression 3D en circuit court  en lien avec une approche appellé INEDIT.
+
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/INEDIT-logo-00.jpg'))
+```
+
+
+http://erpi.univ-lorraine.fr/fr/projects/INEDIT/
+
+https://lf2l.fr/projects/green-fablab/
+
+]
+
+
+.pull-right-2[
+
+]
+
+```{r, fig.cap="Demostrator of the Green Fablab at the Octroi site", out.width = '80%', fig.align='center'}
+
+
+```
+
+
+
+exclude: true
+## Lorraine Fab Living Lab - LF2L
+
+Première espace de créativité et materialization dans l'Université 
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-00.png'))
+```
+
+- **Depuis 2005 au Decembre 2013 - 50 $m^2$ au ENSGSI**

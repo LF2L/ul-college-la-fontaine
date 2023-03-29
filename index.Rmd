@@ -1,12 +1,12 @@
 ---
-title: "Projet Pédagogique Collège Jean de la Fontaine et Lorraine Fab Living Lab 2022"
+title: "Bienvenue Collège Jean de la Fontaine au Lorraine Fab Living Lab"
 subtitle: |
   Université de Lorraine - ERPI - France
 author: 
 - "Virginie Pierucci (Collège Jean de la Fontaine) "
 - "Fabio Cruz" 
 institute: "ERPI"
-date: 'Decembre 2021, Nancy - France'
+date: 'Mars 29/2023, Nancy - France'
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
@@ -92,8 +92,7 @@ xaringanExtra::use_share_again()
 ```
 
 ---
-
-
+exclude: true
 class: middle
 
 # Sommaire  `r format(Sys.time(), '%d %B, %Y')`
@@ -105,22 +104,35 @@ class: middle
 
 ---
 
+exclude: true
+
 ## Équipe
 
 .pull-left[
-
 
 ```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
 knitr::include_graphics(paste0(URL, 'Fontaine/Woman.jpg'))
 ```
 
 **Virginie Pierucci**
+
 Professeur de technologie.
-]
 
-.pull-right[
+<br>
+<br>
+<br>
 
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Fontaine/Woman.jpg'))
+```
 
+**Esra SAHIN **
+
+Stagiaire
+
+<br>
+<br>
+<br>
 ```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
 knitr::include_graphics(paste0(URL, 'Fontaine/Fabio.png'))
 ```
@@ -134,145 +146,123 @@ knitr::include_graphics(paste0(URL, 'Fontaine/Ferney.png'))
 
 **Ferney Osorio**. Ingénieur de recherche au Laboratoire ERPI. 
 Il mène ses recherches doctorales sur la conception et la gestion de laboratoires d’innovation type fablab, Living lab, etc.
-
- 
-
-```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
-knitr::include_graphics(paste0(URL, 'Fontaine/Alexandre.png'))
-```
-
-
-**Alexandre ASTACHENKO** Étudiant LP AFTER en alternance au LF2L dans le cadre de la licence.
-
-<br>
-<br>
-<br>
-<br>
-
->Il aura les autres étudiants (5) du LP AFTER...
-]
-
-
----
-
-# Contexte: ENSGSI - ERPI --> LF2L
-
-
-.pull-left[
-
-```{r, out.width = '150px', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/ENSGSI-small.jpg'))
-```
-
-**Ecole Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI)**
-
-- École d'ingénieurs parcours en 3 ou 5 année d’études basé sur un referentiel emploi Competence spécifique pour des ingénieurs. 
-
-- Profil: Chefs de projets en pilotage de projets innovants. 
-   
-
-https://www.ensgsi.univ-lorraine.fr/
-
 ]
 
 .pull-right[
 
-```{r, out.width = '280px', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.png'))
-```
-
-**Équipe de Recherche sur les Processus Innovatifs (ERPI)**
-
-- ERPI a pour vocation de mener des recherches dans le domaine de la conduite et du pilotage des processus innovatifs. 
-
-- L’ERPI est un laboratoire de Génie Industriel spécialisé dans l’étude des processus d’innovation. 
-
-https://erpi.univ-lorraine.fr/fr/
-]
-
-
-> **Un axe de travail de l'École ENSGSI et du laboratoire ERPI depuis 2005**: 
-- Comment évaluaer .bg-green[des processus d'Innovation] (*pas forcement l'Innovation en soi-même*)
-  - Innovation en phase amount:  Analyse de besoins,  Generation des Idées, Opportunités et validationdes concepts 
-  - Donc, les espace d'Innovation et créativité (Fablab, Tieurs Lieu) --> .bg-green.large[**Lorraine Fab Living Lab (LF2L)**]
-
----
-
-## Lorraine Fab Living Lab - LF2L
-
-Première espace de créativité et materialization dans l'Université 
-
-
-```{r, out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/History/history-00.png'))
-```
-
-- **Depuis 2005 au Decembre 2013 - 50 $m^2$ au ENSGSI**
-
----
-
-## Lorraine Fab Living Lab
-
-
-.pull-left-2[
 ```{r, out.width = '100%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/LSCLL-01.jpg'))
-```
-]
-
-
-.pull-right-1[
-```{r, out.width = '100%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-01.png'))
+knitr::include_graphics("Figures/equipe.png")
 ```
 
-.center[**https://lf2l.fr/**]
-
 ]
+
 
 ---
 
-## Lorraine Fab Living Lab
+
+# Déroulé
+
+
 
 .pull-left-1[
 
-```{r, out.width = '100%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
-```
+### But général
+- **Tiers-lieu** et ce que l'on peut y faire. 
+- **Expérimenter** sa propre créativité .
+- **Éco-responsabilité**
 
 
-Projet de recherche en cours sur un demostrateur de  recyclage de plastique pour l'impression 3D en circuit court  en lien avec une approche appellé INEDIT.
+`r emo::ji("calendar")` **Avril:**   Mer 29/04, 2023
+ `r emo::ji("clock8")`  13:30 - 15:30 
+`r emo::ji("round_pushpin")`  LF2L <br>
 
-
-```{r, out.width = '100%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Inedit/INEDIT-logo-00.jpg'))
-```
-
-
-http://erpi.univ-lorraine.fr/fr/projects/INEDIT/
-
-https://lf2l.fr/projects/green-fablab/
+| Time          | Activity                |
+|:--------------|:------------------------|
+| 9:00 - 9:15 | Introduction |
+| 9:15 - 10:15 | Atelier I      |
+| 10:15 - 11:15 |    Atelier II   |
+| 11:15 - 12:00 | Retour d'Experiences     |
 
 ]
 
-
 .pull-right-2[
-```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-1.jpg'))
 
 knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
 ```
+
 ]
 
-```{r, fig.cap="Demostrator of the Green Fablab at the Octroi site", out.width = '80%', fig.align='center'}
 
 
-```
 
 
 
 ---
 
+exclude: true
+# Groupes
+
+.Large.pull-left[
+
+**Groupe VR**
+
+- Amélie CARON 
+- Aminata NIANG
+- Ali SAIED
+- BENTAIB Ayoub
+- Khalil SHAMOYAN
+- Younes KHELIFA
+- Hamza MULLA
+- Marc HENRIET
+- Wahil GHALEM
+
+]
+.Large.pull-rigth[
+
+**Groupe Green Fablab**
+
+- Meilie DAVID
+- Hovhannes MKRTCHYAN
+- Sabrina ZOUARI
+- Saffi SAANDA
+- Fatih AKTURK
+- Albert KOSHKARYAN
+- Yacine DEBOUB
+- Fatoumata DIOUF
+
+
+]
+
+
+
+---
+class: middle
+
+# Idées des tier-lieux
+
+.pull-right-2[
+```{r, include=TRUE, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figures/Mots.jpg")
+```
+
+]
+
+.pull-left-1[
+- Convivialité
+- Jeu
+- et..
+
+- **Metier et formation**
+- **Science de l'Ingénieur**
+- **C'est aussi pour vous!!**
+
+]
+
+
+---
 background-image: url("`r paste0(URL, 'AFTER/Banner.jpg')`")
 background-position: 100% 50%
 background-size: 600px
@@ -305,76 +295,10 @@ https://cfa.univ-lorraine.fr/nos-formations/licences-pro/licence-pro-animateur-f
 
 ---
 
-
-class: middle 
-
-# Description du Projet ...
-
----
-
 class: middle
 
-# But général
 
->**Co-concevoir un atelier avec les étudiants du LP AFTER afin de l'animer avec des élèves du Collègue Jean de la Fontaine au Lorraine Fab Living**
-
-
-Possibles éléments de focalisation?
-
-- Presenter aux étudiants les espaces dites *Tiers-lieu* comme celle du LF2L et l'integration avec le quartier et association comme Octroi Nancy gràce au projet Green Fablab?
-- Recyclage / Eco-conception 
-<!-- - Présenter science de l'les metier d'ingénieurs  -->
-
----
-
-
-# Timming
-
-- Meeting de Préparation: **Vendredi 17/2021**.
-
->**But:**
-- Définir la thématique
-- Séance de présentation du project:  Janvier 05 et 06
-- Les étudiant auront tout le mois de Javier pour préparer la séance pédagogique et préparation des ressources matériels.
-
-.pull-left[
-`r emo::ji("calendar")` *Dates Potentiels des Ateliers* 
- - **Fevrier:**  ~~Jeu 02 - Ven 03, 2022~~ <br>
- - **March:**  Jeu 03, Ven 04, Jeu 31 - 2022 <br> 
- - **Avril:**  Ven 01 - Me 27, 2022 <br> 
- 
-`r emo::ji("clock8")`  09:00 - 12:00 ou (14:00 - 17:00?)<br> 
-`r emo::ji("round_pushpin")`  LF2L <br>
-]
-
-.pull-right[
-
-| Time          | Activity                |
-|:--------------|:------------------------|
-| 09:00 - 09:20 | Introduction Par Fabio / Vriginie : <br> - Defining expectations   |
-| ... - ... | ...     |
-| 10:15 - 10:30 | *Break* `r emo::ji("apple")`        |
-| ... - ... | ...     |
-| ... - 12h | Fin     |
-
-Idéalment:
-
-1. Une première séance d'atelier 
-]
-
-
----
-
-class: middle, center
-
-### Merci 
-
-
-
-
-
-
-
+# Merci beaucoup de votre visite 
 
 
 
